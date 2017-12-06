@@ -93,7 +93,7 @@
                 Materialize.toast('Tag: ' + item.text + '(' + item.id + ') is already added!', 2000);
             },
             onExceed: function (maxSize, item) {
-                Materialize.toast('Can\'t add over ' + maxSize + ' tags!', 2000);
+                Materialize.toast('Can\'t add more than ' + maxSize+'!', 2000);
             },
             onAppend: function (item) {
                 var self = this;
@@ -116,7 +116,7 @@
             el: '',
             tagName: 'ul',
             className: 'ac-appender',
-            tagTemplate: '<div class="chip" data-id="<%= item.id %>" data-text="<%= item.text %>"><%= item.text %>(<%= item.id %>)<i class="material-icons close">close</i></div>'
+            tagTemplate: '<div class="chip" data-id="<%= item.id %>" data-text="<%= item.text %>"><%= item.text %><i class="material-icons close">close</i></div>'
         },
         dropdown: {
             el: '',

@@ -1,6 +1,6 @@
 {
   "name": "materialize-autocomplete-meteor-autoform",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Materialize-css styled autocomplete",
   "main": "jquery.materialize-autocomplete.js",
   "scripts": {
