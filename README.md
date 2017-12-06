@@ -2,16 +2,17 @@
 Materialize-css styled autocomplete, examples:  [https://icefox0801.github.io/materialize-autocomplete/examples/](https://icefox0801.github.io/materialize-autocomplete/examples/)
 
 ## A hard fork for a reason
-There is a good reason for why this is a hard fork. At the time of writing Meteor Atmosphere Packages can only include published NPM packages. The styling of the pills cannot be configured to not show the ids, and the existing forks are stale. While MaterializeCSS is implementing a built in autocomplete with support for multiple, there is no choice but a hard fork.
+This is a hard form from [ValYouw's](https://github.com/ValYouW/materialize-autocomplete)'s fork,  which is a fork from [Icefox  Materialize Autocomplete](https://github.com/icefox0801/materialize-autocomplete). It seems to work ok most of the time. Perhaps we can make it even better.
+
+There is a good reason for why this is a hard fork. At the time of writing Meteor Atmosphere Packages can only include published NPM packages. The styling of the pills cannot be configured to not show the ids, and the existing forks seem stale... While MaterializeCSS is implementing a built in autocomplete with support for multiple, there is no choice but a hard fork.
+
+We thank all thee that has gone before as and wish those behind us good luck.
+Going forward this fork will be managed by [ExpertBox.com as a big](https://www.ExpertBox.com/home) as a big thank you to the Open Source community.
 
 ## Install
 + npm
-```sh
-$ npm install materialize-autocomplete
-```
-+ bower
-```sh
-$ bower install materialize-autocomplete
+```shell
+$ npm install materialize-autocomplete2
 ```
 
 ## Usage
