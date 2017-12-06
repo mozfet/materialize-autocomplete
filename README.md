@@ -6,8 +6,10 @@ This is a hard form from [ValYouw's](https://github.com/ValYouW/materialize-auto
 
 There is a good reason for why this is a hard fork. At the time of writing Meteor Atmosphere Packages can only include published NPM packages. The styling of the pills cannot be configured to not show the ids, and the existing forks seem stale... While MaterializeCSS is implementing a built in autocomplete with support for multiple, there is no choice but a hard fork.
 
+This fork is meant for use with Meteor Autoform Materialize. It is not meant as a replacement for the existing repos. It exists mainly due to dependency chains.
+
 We thank all thee that has gone before as and wish those behind us good luck.
-Going forward this fork will be managed by [ExpertBox.com as a big](https://www.ExpertBox.com/home) as a big thank you to the Open Source community.
+Going forward this fork will be managed by [ExpertBox.com](https://www.ExpertBox.com/home) as a big thank you to the Open Source community.
 
 ## Install
 + npm
@@ -16,7 +18,7 @@ $ npm install materialize-autocomplete2
 ```
 
 ## Usage
-![autocomplete](https://cloud.githubusercontent.com/assets/3138397/17131670/1cca05be-5351-11e6-8c77-1d9a98ab765c.gif)
+<!-- ![autocomplete](https://cloud.githubusercontent.com/assets/3138397/17131670/1cca05be-5351-11e6-8c77-1d9a98ab765c.gif) -->
 + When typing inside an input, autocomplete prompts will show on dropdown list
 + Choosing an option by click or `↑`, `↓`, `Enter` keys
 + Removing a selection by click `x` when enable multiple selection

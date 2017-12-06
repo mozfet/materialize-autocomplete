@@ -1,11 +1,10 @@
 {
-  "name": "materialize-autocomplete",
-  "version": "1.0.7",
+  "name": "materialize-autocomplete2",
+  "version": "2.0.0",
   "description": "Materialize-css styled autocomplete",
   "main": "jquery.materialize-autocomplete.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dist": "uglifyjs -o jquery.materialize-autocomplete.min.js jquery.materialize-autocomplete.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -16,10 +15,10 @@
     "autocomplete",
     "jquery"
   ],
-  "author": "icefox0801 <icefox0801@hotmail.com>",
+  "author": "info@expertbox.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/icefox0801/materialize-autocomplete/issues"
+    "url": "https://github.com/mozfet/materialize-autocomplete/issues"
   },
   "homepage": "https://icefox0801.github.io/materialize-autocomplete/",
   "devDependencies": {
