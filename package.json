@@ -15,7 +15,7 @@
     "autocomplete",
     "jquery"
   ],
-  "author": "info@expertbox.com",
+  "author": "wynand@expertbox.com",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/mozfet/materialize-autocomplete/issues"
