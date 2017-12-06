@@ -97,12 +97,12 @@
             },
             onAppend: function (item) {
                 var self = this;
-                self.$el.removeClass('active');
+                // self.$el.removeClass('active');
                 self.$el.click();
             },
             onRemove: function (item) {
                 var self = this;
-                self.$el.removeClass('active');
+                // self.$el.removeClass('active');
                 self.$el.click();
             }
         },
