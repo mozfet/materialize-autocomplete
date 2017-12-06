@@ -6,7 +6,7 @@ This is a hard form from [ValYouw's](https://github.com/ValYouW/materialize-auto
 
 There is a good reason for why this is a hard fork. At the time of writing Meteor Atmosphere Packages can only include published NPM packages. The styling of the pills cannot be configured to not show the ids, and the existing forks seem stale... While MaterializeCSS is implementing a built in autocomplete with support for multiple, there is no choice but a hard fork.
 
-This fork is meant for use with Meteor Autoform Materialize. It is not meant as a replacement for the existing repos. It exists mainly due to dependency chains.
+This fork is meant for use with Meteor Autoform Materialize. It is not meant as a replacement for the existing repos, there is no build in this repo because we use the Meteor build process. Bower support has been discontinued. This fork exists mainly due to dependency chains.
 
 We thank all thee that has gone before as and wish those behind us good luck.
 Going forward this fork will be managed by [ExpertBox.com](https://www.ExpertBox.com/home) as a big thank you to the Open Source community.
@@ -14,7 +14,7 @@ Going forward this fork will be managed by [ExpertBox.com](https://www.ExpertBox
 ## Install
 + npm
 ```shell
-$ npm install materialize-autocomplete2
+$ npm install materialize-autocomplete-meteor-autoform
 ```
 
 ## Usage
